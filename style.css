@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+
+
+strong {
+  color: #000000;
+  font-size: 90px;
+  font-family: 'Roboto', sans-serif;
+ background: #ff0000; /* Old browsers */
+background: -moz-linear-gradient(top, #ff0000 0%, #ffff00 33%, #0077d3 64%, #9300dd 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ff0000 0%,#ffff00 33%,#0077d3 64%,#9300dd 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ff0000 0%,#ffff00 33%,#0077d3 64%,#9300dd 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#9300dd',GradientType=0 );
+}
+
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
